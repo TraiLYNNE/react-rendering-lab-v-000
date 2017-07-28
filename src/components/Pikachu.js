@@ -34,7 +34,7 @@ class Pikachu extends React.Component {
         <button onClick={this.makeBigger}>Bigger!</button>
         <button onClick={this.makeSmaller}>Smaller!</button>
       </div>
-    )
+    );
   }
   
   componentDidUpdate(prevProps, prevState){
